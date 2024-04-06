@@ -14,7 +14,7 @@ float FarmTemp;
 float FarmHum;
 
 char ssid[] = "Nokia G20";     // Your WiFi network SSID
-char pass[] = "mypasscode55"; // Your WiFi network password
+char pass[] = "mypasscode"; // Your WiFi network password
 
 // Function declarations
 void setDevice_time();                                       // Function to configure the NodeMCU's time with real-time from ATS (Anedya Time Services)
