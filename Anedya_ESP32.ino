@@ -7,14 +7,14 @@
 bool virtual_sensor = true;
 
 String regionCode = "ap-in-1"; // Anedya region code (e.g., "ap-in-1" for Asia-Pacific/India) | For other country code, visity [https://docs.anedya.io/device/intro/#region]
-String deviceID = "f6904634-bace-4836-b84e-306b97449d90";
-String connectionkey = "f588d640464fc1e715acb28869ae353c"; // Fill your connection key, that you can get from your node description
+String deviceID = "*************";
+String connectionkey = "*****"; // Fill your connection key, that you can get from your node description
 
 float FarmTemp;
 float FarmHum;
 
-char ssid[] = "Nokia G20";     // Your WiFi network SSID
-char pass[] = "mypasscode"; // Your WiFi network password
+char ssid[] = "******";     // Your WiFi network SSID
+char pass[] = "*******"; // Your WiFi network password
 
 // Function declarations
 void setDevice_time();                                       // Function to configure the NodeMCU's time with real-time from ATS (Anedya Time Services)
